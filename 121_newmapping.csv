@@ -8,7 +8,7 @@ SEX,F,Sex,Female,,3,DIM
 SEX,M,Sex,Male,,3,DIM
 SEX,_T,Sex,_,,3,DIM
 AGE,_T,Age,_,,3,DIM
-AGE,Y0T15,Age,15 and under,,3,DIM
+AGE,Y0T16,Age,15 and under,,3,DIM
 AGE,Y65T74,Age,65 to 74,,3,DIM
 AGE,Y50T64,Age,50 to 64,,3,DIM
 AGE,Y25T49,Age,25 to 49,,3,DIM
