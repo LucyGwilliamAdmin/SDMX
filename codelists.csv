@@ -6,7 +6,7 @@ FREQ,M,Monthly
 FREQ,W,Weekly
 FREQ,D,Daily
 FREQ,H,Hourly
-FREQ,B,Daily – businessweek
+FREQ,B,Daily - businessweek
 FREQ,N,Minutely
 OBS_STATUS,A,Normal value
 OBS_STATUS,B,Time series break
@@ -759,8 +759,8 @@ EDUCATION_LEV,ISCED11_45,Post-secondary non-tertiary vocational education
 EDUCATION_LEV,ISCED11_5,Short-cycle tertiary education
 EDUCATION_LEV,ISCED11_54,Short-cycle tertiary general education
 EDUCATION_LEV,ISCED11_55,Short-cycle tertiary vocational education
-EDUCATION_LEV,ISCED11_6,Bachelor’s or equivalent level
-EDUCATION_LEV,ISCED11_7,Master’s or equivalent level
+EDUCATION_LEV,ISCED11_6,Bachelor's or equivalent level
+EDUCATION_LEV,ISCED11_7,Master's or equivalent level
 EDUCATION_LEV,ISCED11_8,Doctoral or equivalent level
 EDUCATION_LEV,ISCED11_9,Not elsewhere classified
 EDUCATION_LEV,ISCED11_99,Not elsewhere classified
@@ -774,8 +774,8 @@ EDUCATION_LEV,ISCED11A_2,"Lower secondary education, sufficient for level comple
 EDUCATION_LEV,ISCED11A_3,"Upper secondary education, sufficient for level completion"
 EDUCATION_LEV,ISCED11A_4,"Post-secondary non-tertiary education, sufficient for level completion"
 EDUCATION_LEV,ISCED11A_5,"Short-cycle tertiary education, sufficient for level completion"
-EDUCATION_LEV,ISCED11A_6,"Bachelor’s or equivalent level, sufficient for level completion"
-EDUCATION_LEV,ISCED11A_7,"Master’s or equivalent level, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_6,"Bachelor's or equivalent level, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_7,"Master's or equivalent level, sufficient for level completion"
 EDUCATION_LEV,ISCED11A_8,"Doctoral or equivalent level, sufficient for level completion"
 EDUCATION_LEV,AGGA_01_02,No primary schooling
 EDUCATION_LEV,AGG_02T8,Pre-primary to tertiary education

@@ -22,6 +22,6 @@ CUST_BREAKDOWN,_T,,,,4,DIM
 COMPOSITE_BREAKDOWN,_T,,,,4,DIM
 DISABILITY_STATUS,_T,,,,4,DIM
 TIME_PERIOD,,Year,,,1,DIM
-UNIT_MULT,0,Unit.mult,Units,,3,ATTRI
-UNIT_MEASURE,PERCENT,Unit.measure,Percentage (%),,3,ATTRI
-OBS_STATUS,A,Obs.status,Normal value,,3,ATTRI
+UNIT_MULT,0,Unit.multiplier,Units,,3,ATTRI
+UNIT_MEASURE,PERCENT,Units,Percentage (%),,3,ATTRI
+OBS_STATUS,A,Observation.status,Normal value,,3,ATTRI
