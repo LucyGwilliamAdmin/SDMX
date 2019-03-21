@@ -1,0 +1,1270 @@
+Codelist,Code,Name
+FREQ,A,Annual
+FREQ,S,"Half-yearly, semester"
+FREQ,Q,Quarterly
+FREQ,M,Monthly
+FREQ,W,Weekly
+FREQ,D,Daily
+FREQ,H,Hourly
+FREQ,B,Daily – businessweek
+FREQ,N,Minutely
+OBS_STATUS,A,Normal value
+OBS_STATUS,B,Time series break
+OBS_STATUS,D,Definition differs
+OBS_STATUS,E,Estimated value
+OBS_STATUS,F,Forecast value
+OBS_STATUS,G,Experimental value
+OBS_STATUS,H,Missing value; holiday or weekend
+OBS_STATUS,I,Imputed value (CCSA definition)
+OBS_STATUS,J,Derogation
+OBS_STATUS,K,Data included in another category
+OBS_STATUS,L,Missing value; data exist but were not collected
+OBS_STATUS,M,Missing value; data cannot exist
+OBS_STATUS,N,Not significant
+OBS_STATUS,O,Missing value
+OBS_STATUS,P,Provisional value
+OBS_STATUS,Q,Missing value; suppressed
+OBS_STATUS,S,Strike and other special events
+OBS_STATUS,U,Low reliability
+OBS_STATUS,V,Unvalidated value
+OBS_STATUS,W,Includes data from another category
+UNIT_MULT,0,Units
+UNIT_MULT,1,Tens
+UNIT_MULT,2,Hundreds
+UNIT_MULT,3,Thousands
+UNIT_MULT,4,Tens of thousands
+UNIT_MULT,5,Hundreds of thousands
+UNIT_MULT,6,Millions
+UNIT_MULT,7,Tens of millions
+UNIT_MULT,8,Hundreds of millions
+UNIT_MULT,9,Billions
+UNIT_MULT,10,Tens of billions
+UNIT_MULT,11,Hundreds of billions
+UNIT_MULT,12,Trillions
+UNIT_MULT,13,Tens of trillions
+UNIT_MULT,14,Hundreds of trillions
+UNIT_MULT,15,Quadrillions
+UNIT_MULT,-1,Tenths
+UNIT_MULT,-2,Hundredths
+UNIT_MULT,-3,Thousandths
+UNIT_MULT,-4,Ten-thousandths
+UNIT_MULT,-5,Hundred-thousandths
+UNIT_MULT,-6,Millionths
+UNIT_MULT,-7,Ten-millionths
+UNIT_MULT,-8,Hundred-millionths
+UNIT_MULT,-9,Billionths
+UNIT_MULT,-10,Ten-billionths
+UNIT_MULT,-11,Hundred-billionths
+UNIT_MULT,-12,Trillionths
+UNIT_MULT,-13,Ten-trillionths
+UNIT_MULT,-14,Hundred-trillionths
+UNIT_MULT,-15,Quadrillionths
+AGE,_T,All age ranges or no breakdown by age
+AGE,M0,under 1 month old
+AGE,M36T59,36 to 59 months old
+AGE,Y0,under 1 year old
+AGE,Y0T4,under 5 years old
+AGE,Y0T14,under 15 years old
+AGE,Y0T17,under 18 years old
+AGE,Y1T14,1 to 14 years old
+AGE,Y1T17,1 to 17 years old
+AGE,Y5T14,5 to 14 years old
+AGE,Y5T17,5 to 17 years old
+AGE,Y_GE5,5 years old and over
+AGE,Y6T14,6 to 14 years old
+AGE,Y6T17,6 to 17 years old
+AGE,Y_GE6,6 years old and over
+AGE,Y7T14,7 to 14 years old
+AGE,Y7T17,7 to 17 years old
+AGE,Y_GE7,7 years old and over
+AGE,Y10T14,10 to 14 years old
+AGE,Y10T17,10 to 17 years old
+AGE,Y10T24,10 to 24 years old
+AGE,Y10T74,10 to 74 years old
+AGE,Y_GE10,10 years old and over
+AGE,Y12T14,12 to 14 years old
+AGE,Y12T17,12 to 17 years old
+AGE,Y12T30,12 to 30 years old
+AGE,Y_GE12,12 years old and over
+AGE,Y14T24,14 to 24 years old
+AGE,Y14T28,14 to 28 years old
+AGE,Y14T29,14 to 29 years old
+AGE,Y_GE14,14 years old and over
+AGE,Y15T17,15 to 17 years old
+AGE,Y15T19,15 to 19 years old
+AGE,Y15T24,15 to 24 years old
+AGE,Y15T29,15 to 29 years old
+AGE,Y15T44,15 to 44 years old
+AGE,Y15T49,15 to 49 years old
+AGE,Y15T60,15 to 60 years old
+AGE,Y15T64,15 to 64 years old
+AGE,Y15T65,15 to 65 years old
+AGE,Y15T70,15 to 70 years old
+AGE,Y15T72,15 to 72 years old
+AGE,Y15T74,15 to 74 years old
+AGE,Y15T80,15 to 80 years old
+AGE,Y15T84,15 to 84 years old
+AGE,Y_GE15,15 years old and over
+AGE,Y16T24,16 to 24 years old
+AGE,Y16T65,16 to 65 years old
+AGE,Y16T74,16 to 74 years old
+AGE,Y_GE16,16 years old and over
+AGE,Y18T19,18 to 19 years old
+AGE,Y18T27,18 to 27 years old
+AGE,Y18T29,18 to 29 years old
+AGE,Y18T35,18 to 35 years old
+AGE,Y18T44,18 to 44 years old
+AGE,Y_GE18,18 years old and over
+AGE,Y19T65,19 to 65 years old
+AGE,Y20T24,20 to 24 years old
+AGE,Y20T29,20 to 29 years old
+AGE,Y20T30,20 to 30 years old
+AGE,Y20T49,20 to 49 years old
+AGE,Y20T64,20 to 64 years old
+AGE,Y20T74,20 to 74 years old
+AGE,Y25T29,25 to 29 years old
+AGE,Y25T34,25 to 34 years old
+AGE,Y25T64,25 to 64 years old
+AGE,Y_GE25,25 years old and over
+AGE,Y30,30 years old
+AGE,Y30T34,30 to 34 years old
+AGE,Y30T39,30 to 39 years old
+AGE,Y30T69,30 to 69 years old
+AGE,Y30T70,30 to exact 70 years old
+AGE,Y35,35 years old
+AGE,Y35T39,35 to 39 years old
+AGE,Y35T44,35 to 44 years old
+AGE,Y35T49,35 to 49 years old
+AGE,Y40T44,40 to 44 years old
+AGE,Y40T49,40 to 49 years old
+AGE,Y45T49,45 to 49 years old
+AGE,Y45T59,45 to 59 years old
+AGE,Y0T9,under 10 years old
+AGE,Y5T9,5 to 9 years old
+AGE,Y10T19,10 to 19 years old
+AGE,Y50T54,50 to 54 years old
+AGE,Y50T59,50 to 59 years old
+AGE,Y55T59,55 to 59 years old
+AGE,Y60T64,60 to 64 years old
+AGE,Y60T69,60 to 69 years old
+AGE,Y_GE60,60 years old and over
+AGE,Y65T69,65 to 69 years old
+AGE,Y_GE65,65 years old and over
+AGE,Y70T74,70 to 74 years old
+AGE,Y70T79,70 to 79 years old
+AGE,Y_GE70,70 years old and over
+AGE,Y75T79,75 to 79 years old
+AGE,Y_GE75,75 years old and over
+AGE,Y80T84,80 to 84 years old
+AGE,Y80T89,80 to 89 years old
+AGE,Y_GE80,80 years old and over
+AGE,Y85T89,85 to 89 years old
+AGE,Y_GE85,85 years old and over
+AGE,Y90T94,90 to 94 years old
+AGE,Y90T99,90 to 99 years old
+AGE,Y_GE90,90 years old and over
+AGE,Y95T99,95 to 99 years old
+AGE,Y_GE95,95 years old and over
+AGE,Y_GE100,100 years old and over
+AREA,1,World
+AREA,2,Africa (M49)
+AREA,4,Afghanistan
+AREA,5,South America (M49)
+AREA,8,Albania
+AREA,9,Oceania (M49)
+AREA,10,Antarctica
+AREA,11,Western Africa (M49)
+AREA,12,Algeria
+AREA,13,Central America (M49)
+AREA,14,Eastern Africa (M49)
+AREA,15,Northern Africa (M49)
+AREA,16,American Samoa
+AREA,17,Middle Africa (M49)
+AREA,18,Southern Africa (M49)
+AREA,19,Americas (M49)
+AREA,20,Andorra
+AREA,21,Northern America (M49)
+AREA,24,Angola
+AREA,28,Antigua and Barbuda
+AREA,29,Caribbean (M49)
+AREA,30,Eastern Asia (M49)
+AREA,31,Azerbaijan
+AREA,32,Argentina
+AREA,34,Southern Asia (M49-MDG)
+AREA,35,South-eastern Asia (M49-MDG)
+AREA,36,Australia
+AREA,39,Southern Europe (M49)
+AREA,40,Austria
+AREA,44,Bahamas
+AREA,48,Bahrain
+AREA,50,Bangladesh
+AREA,51,Armenia
+AREA,52,Barbados
+AREA,53,Australia and New Zealand (SDG)
+AREA,54,Melanesia (M49)
+AREA,56,Belgium
+AREA,57,Micronesia (M49)
+AREA,60,Bermuda
+AREA,61,Polynesia (M49)
+AREA,62,Central Asia and Southern Asia (SDG)
+AREA,64,Bhutan
+AREA,68,Bolivia (Plurinational State of)
+AREA,70,Bosnia and Herzegovina
+AREA,72,Botswana
+AREA,76,Brazil
+AREA,84,Belize
+AREA,86,British Indian Ocean Territory
+AREA,90,Solomon Islands
+AREA,92,British Virgin Islands
+AREA,96,Brunei Darussalam
+AREA,100,Bulgaria
+AREA,104,Myanmar
+AREA,108,Burundi
+AREA,112,Belarus
+AREA,116,Cambodia
+AREA,120,Cameroon
+AREA,124,Canada
+AREA,127,"Southern Asia, exc. India (MDG)"
+AREA,132,Cabo Verde
+AREA,135,Caucasus and Central Asia (MDG)
+AREA,136,Cayman Islands
+AREA,140,Central African Republic
+AREA,142,Asia (M49)
+AREA,143,Central Asia (M49)
+AREA,144,Sri Lanka
+AREA,145,Western Asia (M49)
+AREA,148,Chad
+AREA,150,Europe (M49)
+AREA,151,Eastern Europe (M49)
+AREA,152,Chile
+AREA,154,Northern Europe (M49)
+AREA,155,Western Europe (M49)
+AREA,156,China
+AREA,162,Christmas Island
+AREA,166,Cocos (Keeling) Islands
+AREA,170,Colombia
+AREA,174,Comoros
+AREA,175,Mayotte
+AREA,178,Congo
+AREA,180,Democratic Republic of the Congo
+AREA,184,Cook Islands
+AREA,188,Costa Rica
+AREA,191,Croatia
+AREA,192,Cuba
+AREA,196,Cyprus
+AREA,198,OECD Member States
+AREA,199,Least Developed Countries (LDCs)
+AREA,202,Sub-Saharan Africa (SDG)
+AREA,203,Czechia
+AREA,204,Benin
+AREA,208,Denmark
+AREA,212,Dominica
+AREA,214,Dominican Republic
+AREA,218,Ecuador
+AREA,222,El Salvador
+AREA,223,"Eastern Asia, exc. Japan and China (MDG)"
+AREA,226,Equatorial Guinea
+AREA,231,Ethiopia
+AREA,232,Eritrea
+AREA,233,Estonia
+AREA,234,Faroe Islands
+AREA,238,Falkland Islands (Malvinas)
+AREA,239,South Georgia and the South Sandwich Islands
+AREA,242,Fiji
+AREA,246,Finland
+AREA,248,Åland Islands
+AREA,250,France
+AREA,254,French Guiana
+AREA,258,French Polynesia
+AREA,260,French Southern Territories
+AREA,262,Djibouti
+AREA,266,Gabon
+AREA,268,Georgia
+AREA,270,Gambia
+AREA,275,State of Palestine
+AREA,276,Germany
+AREA,288,Ghana
+AREA,292,Gibraltar
+AREA,296,Kiribati
+AREA,300,Greece
+AREA,304,Greenland
+AREA,308,Grenada
+AREA,312,Guadeloupe
+AREA,316,Guam
+AREA,320,Guatemala
+AREA,324,Guinea
+AREA,328,Guyana
+AREA,332,Haiti
+AREA,334,Heard Island and McDonald Islands
+AREA,336,Holy See
+AREA,340,Honduras
+AREA,344,"China, Hong Kong Special Administrative Region"
+AREA,348,Hungary
+AREA,352,Iceland
+AREA,356,India
+AREA,360,Indonesia
+AREA,364,Iran (Islamic Republic of)
+AREA,368,Iraq
+AREA,372,Ireland
+AREA,376,Israel
+AREA,380,Italy
+AREA,384,Côte d'Ivoire
+AREA,388,Jamaica
+AREA,392,Japan
+AREA,398,Kazakhstan
+AREA,400,Jordan
+AREA,404,Kenya
+AREA,408,Democratic People's Republic of Korea
+AREA,410,Republic of Korea
+AREA,412,Kosovo
+AREA,414,Kuwait
+AREA,417,Kyrgyzstan
+AREA,418,Lao People's Democratic Republic
+AREA,419,Latin America and the Caribbean (SDG-MDG)
+AREA,420,Latin America (MDG)
+AREA,422,Lebanon
+AREA,426,Lesotho
+AREA,428,Latvia
+AREA,430,Liberia
+AREA,432,Landlocked developing countries (LLDCs)
+AREA,434,Libya
+AREA,438,Liechtenstein
+AREA,440,Lithuania
+AREA,442,Luxembourg
+AREA,446,"China, Macao Special Administrative Region"
+AREA,450,Madagascar
+AREA,454,Malawi
+AREA,458,Malaysia
+AREA,462,Maldives
+AREA,466,Mali
+AREA,470,Malta
+AREA,474,Martinique
+AREA,478,Mauritania
+AREA,480,Mauritius
+AREA,484,Mexico
+AREA,485,"Western Asia, exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia (MDG)"
+AREA,492,Monaco
+AREA,496,Mongolia
+AREA,498,Republic of Moldova
+AREA,499,Montenegro
+AREA,500,Montserrat
+AREA,504,Morocco
+AREA,508,Mozambique
+AREA,512,Oman
+AREA,513,Northern America and Europe (SDG)
+AREA,514,"Developed regions - Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand (MDG)"
+AREA,515,Developing regions (MDG)
+AREA,516,Namibia
+AREA,518,"Eastern Asia, exc. Japan (MDG)"
+AREA,520,Nauru
+AREA,524,Nepal
+AREA,528,Netherlands
+AREA,530,"Netherlands Antilles [former, 1986 to 2010]"
+AREA,531,Curaçao
+AREA,533,Aruba
+AREA,534,Sint Maarten (Dutch part)
+AREA,535,"Bonaire, Sint Eustatius and Saba"
+AREA,540,New Caledonia
+AREA,543,"Oceania, exc. Australia and New Zealand (SDG-MDG)"
+AREA,548,Vanuatu
+AREA,554,New Zealand
+AREA,558,Nicaragua
+AREA,562,Niger
+AREA,566,Nigeria
+AREA,570,Niue
+AREA,574,Norfolk Island
+AREA,578,Norway
+AREA,580,Northern Mariana Islands
+AREA,581,United States minor outlying islands
+AREA,583,Micronesia (Federated States of)
+AREA,584,Marshall Islands
+AREA,585,Palau
+AREA,586,Pakistan
+AREA,591,Panama
+AREA,593,Development Assistance Committee members (DAC)
+AREA,598,Papua New Guinea
+AREA,600,Paraguay
+AREA,604,Peru
+AREA,608,Philippines
+AREA,612,Pitcairn
+AREA,616,Poland
+AREA,620,Portugal
+AREA,624,Guinea-Bissau
+AREA,626,Timor-Leste
+AREA,630,Puerto Rico
+AREA,634,Qatar
+AREA,638,Réunion
+AREA,642,Romania
+AREA,643,Russian Federation
+AREA,646,Rwanda
+AREA,652,Saint Barthélemy
+AREA,654,Saint Helena
+AREA,659,Saint Kitts and Nevis
+AREA,660,Anguilla
+AREA,662,Saint Lucia
+AREA,663,Saint Martin (French Part)
+AREA,666,Saint Pierre and Miquelon
+AREA,670,Saint Vincent and the Grenadines
+AREA,674,San Marino
+AREA,678,Sao Tome and Principe
+AREA,682,Saudi Arabia
+AREA,686,Senegal
+AREA,688,Serbia
+AREA,690,Seychelles
+AREA,694,Sierra Leone
+AREA,702,Singapore
+AREA,703,Slovakia
+AREA,704,Viet Nam
+AREA,705,Slovenia
+AREA,706,Somalia
+AREA,710,South Africa
+AREA,716,Zimbabwe
+AREA,722,Small island developing States (SIDS)
+AREA,724,Spain
+AREA,728,South Sudan
+AREA,729,Sudan
+AREA,732,Western Sahara
+AREA,736,Sudan [former]
+AREA,738,"Sub-Saharan Africa, inc. Sudan (MDG)"
+AREA,740,Suriname
+AREA,744,Svalbard and Jan Mayen Islands
+AREA,746,"Northern Africa, exc. Sudan (MDG)"
+AREA,747,Western Asia and Northern Africa (SDG)
+AREA,748,Swaziland
+AREA,752,Sweden
+AREA,753,Eastern Asia and South-eastern Asia (SDG)
+AREA,756,Switzerland
+AREA,760,Syrian Arab Republic
+AREA,762,Tajikistan
+AREA,764,Thailand
+AREA,768,Togo
+AREA,772,Tokelau
+AREA,776,Tonga
+AREA,780,Trinidad and Tobago
+AREA,784,United Arab Emirates
+AREA,788,Tunisia
+AREA,792,Turkey
+AREA,795,Turkmenistan
+AREA,796,Turks and Caicos Islands
+AREA,798,Tuvalu
+AREA,800,Uganda
+AREA,804,Ukraine
+AREA,807,The former Yugoslav Republic of Macedonia
+AREA,818,Egypt
+AREA,826,United Kingdom of Great Britain and Northern Ireland
+AREA,830,Channel Islands
+AREA,831,Guernsey
+AREA,832,Jersey
+AREA,833,Isle of Man
+AREA,834,United Republic of Tanzania
+AREA,835,United Republic of Tanzania (Mainland)
+AREA,836,United Republic of Tanzania (Zanzibar)
+AREA,840,United States of America
+AREA,850,United States Virgin Islands
+AREA,854,Burkina Faso
+AREA,858,Uruguay
+AREA,860,Uzbekistan
+AREA,862,Venezuela (Bolivarian Republic of)
+AREA,876,Wallis and Futuna Islands
+AREA,882,Samoa
+AREA,887,Yemen
+AREA,889,WTO Member States
+AREA,891,Serbia and Montenegro [former]
+AREA,894,Zambia
+AREA,901,Africa (ILO)
+AREA,902,Asia and the Pacific (ILO)
+AREA,903,Central and Eastern Europe (ILO)
+AREA,904,Middle East and North Africa (ILO)
+AREA,905,Middle East (ILO)
+AREA,906,North America (ILO)
+AREA,907,Other regions (ILO)
+AREA,908,Western Europe (ILO)
+AREA,909,Eastern Southern South-Eastern Asia and Oceania (MDG)
+AREA,910,High income economies (WB)
+AREA,911,Low income economies (WB)
+AREA,912,Lower middle economies (WB)
+AREA,913,Low and middle income economies (WB)
+AREA,914,Upper middle economies (WB)
+AREA,915,WTO Developing Member States
+AREA,916,WTO Developed Member States
+AREA,917,International Centers (FAO)
+AREA,AD,Andorra
+AREA,AE,United Arab Emirates
+AREA,AF,Afghanistan
+AREA,AG,Antigua and Barbuda
+AREA,AI,Anguilla
+AREA,AL,Albania
+AREA,AM,Armenia
+AREA,AN,Netherlands Antilles [former]
+AREA,AO,Angola
+AREA,AQ,Antarctica
+AREA,AR,Argentina
+AREA,AS,American Samoa
+AREA,AT,Austria
+AREA,AU,Australia
+AREA,AW,Aruba
+AREA,AX,Åland Islands
+AREA,AZ,Azerbaijan
+AREA,BA,Bosnia and Herzegovina
+AREA,BB,Barbados
+AREA,BD,Bangladesh
+AREA,BE,Belgium
+AREA,BF,Burkina Faso
+AREA,BG,Bulgaria
+AREA,BH,Bahrain
+AREA,BI,Burundi
+AREA,BJ,Benin
+AREA,BL,Saint Barthélemy
+AREA,BM,Bermuda
+AREA,BN,Brunei Darussalam
+AREA,BO,Bolivia (Plurinational State of)
+AREA,BQ,"Bonaire, Sint Eustatius and Saba"
+AREA,BR,Brazil
+AREA,BS,Bahamas
+AREA,BT,Bhutan
+AREA,BW,Botswana
+AREA,BY,Belarus
+AREA,BZ,Belize
+AREA,CA,Canada
+AREA,CC,Cocos (Keeling) Islands
+AREA,CD,Democratic Republic of the Congo
+AREA,CF,Central African Republic
+AREA,CG,Congo
+AREA,CH,Switzerland
+AREA,CI,Côte d'Ivoire
+AREA,CK,Cook Islands
+AREA,CL,Chile
+AREA,CM,Cameroon
+AREA,CN,China
+AREA,CO,Colombia
+AREA,CR,Costa Rica
+AREA,CU,Cuba
+AREA,CV,Cabo Verde
+AREA,CW,Curaçao
+AREA,CX,Christmas Island
+AREA,CY,Cyprus
+AREA,CZ,Czechia
+AREA,DE,Germany
+AREA,DJ,Djibouti
+AREA,DK,Denmark
+AREA,DM,Dominica
+AREA,DO,Dominican Republic
+AREA,DZ,Algeria
+AREA,EC,Ecuador
+AREA,EE,Estonia
+AREA,EG,Egypt
+AREA,EH,Western Sahara
+AREA,ER,Eritrea
+AREA,ES,Spain
+AREA,ET,Ethiopia
+AREA,FI,Finland
+AREA,FJ,Fiji
+AREA,FK,Falkland Islands (Malvinas)
+AREA,FM,Micronesia (Federated States of)
+AREA,FO,Faroe Islands
+AREA,FQ,French Southern Territories
+AREA,FR,France
+AREA,GA,Gabon
+AREA,GB,United Kingdom of Great Britain and Northern Ireland
+AREA,GD,Grenada
+AREA,GE,Georgia
+AREA,GF,French Guiana
+AREA,GG,Guernsey
+AREA,GH,Ghana
+AREA,GI,Gibraltar
+AREA,GL,Greenland
+AREA,GM,Gambia
+AREA,GN,Guinea
+AREA,GP,Guadeloupe
+AREA,GQ,Equatorial Guinea
+AREA,GR,Greece
+AREA,GS,South Georgia and the South Sandwich Islands
+AREA,GT,Guatemala
+AREA,GU,Guam
+AREA,GW,Guinea-Bissau
+AREA,GY,Guyana
+AREA,HK,"China, Hong Kong Special Administrative Region"
+AREA,HM,Heard Island and McDonald Islands
+AREA,HN,Honduras
+AREA,HR,Croatia
+AREA,HT,Haiti
+AREA,HU,Hungary
+AREA,ID,Indonesia
+AREA,IE,Ireland
+AREA,IL,Israel
+AREA,IM,Isle of Man
+AREA,IN,India
+AREA,IO,British Indian Ocean Territory
+AREA,IQ,Iraq
+AREA,IR,Iran (Islamic Republic of)
+AREA,IS,Iceland
+AREA,IT,Italy
+AREA,JE,Jersey
+AREA,JM,Jamaica
+AREA,JO,Jordan
+AREA,JP,Japan
+AREA,KE,Kenya
+AREA,KG,Kyrgyzstan
+AREA,KH,Cambodia
+AREA,KI,Kiribati
+AREA,KM,Comoros
+AREA,KN,Saint Kitts and Nevis
+AREA,KP,Democratic People's Republic of Korea
+AREA,KR,Republic of Korea
+AREA,KW,Kuwait
+AREA,KY,Cayman Islands
+AREA,KZ,Kazakhstan
+AREA,LA,Lao People's Democratic Republic
+AREA,LB,Lebanon
+AREA,LC,Saint Lucia
+AREA,LI,Liechtenstein
+AREA,LK,Sri Lanka
+AREA,LR,Liberia
+AREA,LS,Lesotho
+AREA,LT,Lithuania
+AREA,LU,Luxembourg
+AREA,LV,Latvia
+AREA,LY,Libya
+AREA,MA,Morocco
+AREA,MC,Monaco
+AREA,MD,Republic of Moldova
+AREA,ME,Montenegro
+AREA,MF,Saint Martin (French part)
+AREA,MG,Madagascar
+AREA,MH,Marshall Islands
+AREA,MK,The former Yugoslav Republic of Macedonia
+AREA,ML,Mali
+AREA,MM,Myanmar
+AREA,MN,Mongolia
+AREA,MO,"China, Macao Special Administrative Region"
+AREA,MP,Northern Mariana Islands
+AREA,MQ,Martinique
+AREA,MR,Mauritania
+AREA,MS,Montserrat
+AREA,MT,Malta
+AREA,MU,Mauritius
+AREA,MV,Maldives
+AREA,MW,Malawi
+AREA,MX,Mexico
+AREA,MY,Malaysia
+AREA,MZ,Mozambique
+AREA,NA,Namibia
+AREA,NC,New Caledonia
+AREA,NE,Niger
+AREA,NF,Norfolk Island
+AREA,NG,Nigeria
+AREA,NI,Nicaragua
+AREA,NL,Netherlands
+AREA,NO,Norway
+AREA,NP,Nepal
+AREA,NR,Nauru
+AREA,NU,Niue
+AREA,NZ,New Zealand
+AREA,OM,Oman
+AREA,PA,Panama
+AREA,PE,Peru
+AREA,PF,French Polynesia
+AREA,PG,Papua New Guinea
+AREA,PH,Philippines
+AREA,PK,Pakistan
+AREA,PL,Poland
+AREA,PM,Saint Pierre and Miquelon
+AREA,PN,Pitcairn
+AREA,PR,Puerto Rico
+AREA,PS,State of Palestine
+AREA,PT,Portugal
+AREA,PW,Palau
+AREA,PY,Paraguay
+AREA,QA,Qatar
+AREA,RE,Réunion
+AREA,RO,Romania
+AREA,RS,Serbia
+AREA,RU,Russian Federation
+AREA,RW,Rwanda
+AREA,SA,Saudi Arabia
+AREA,SB,Solomon Islands
+AREA,SC,Seychelles
+AREA,SD,Sudan
+AREA,SE,Sweden
+AREA,SG,Singapore
+AREA,SH,Saint Helena
+AREA,SI,Slovenia
+AREA,SJ,Svalbard and Jan Mayen Islands
+AREA,SK,Slovakia
+AREA,SL,Sierra Leone
+AREA,SM,San Marino
+AREA,SN,Senegal
+AREA,SO,Somalia
+AREA,SR,Suriname
+AREA,SS,South Sudan
+AREA,ST,Sao Tome and Principe
+AREA,SV,El Salvador
+AREA,SX,Sint Maarten (Dutch part)
+AREA,SY,Syrian Arab Republic
+AREA,SZ,Swaziland
+AREA,TC,Turks and Caicos Islands
+AREA,TD,Chad
+AREA,TG,Togo
+AREA,TH,Thailand
+AREA,TJ,Tajikistan
+AREA,TK,Tokelau
+AREA,TL,Timor-Leste
+AREA,TM,Turkmenistan
+AREA,TN,Tunisia
+AREA,TO,Tonga
+AREA,TR,Turkey
+AREA,TT,Trinidad and Tobago
+AREA,TV,Tuvalu
+AREA,TZ,United Republic of Tanzania
+AREA,UA,Ukraine
+AREA,UG,Uganda
+AREA,UM,United States minor outlying islands
+AREA,US,United States of America
+AREA,UY,Uruguay
+AREA,UZ,Uzbekistan
+AREA,VA,Holy See
+AREA,VC,Saint Vincent and the Grenadines
+AREA,VE,Venezuela (Bolivarian Republic of)
+AREA,VG,British Virgin Islands
+AREA,VI,United States Virgin Islands
+AREA,VN,Viet Nam
+AREA,VU,Vanuatu
+AREA,WF,Wallis and Futuna Islands
+AREA,WS,Samoa
+AREA,XK,Kosovo
+AREA,YE,Yemen
+AREA,YT,Mayotte
+AREA,YU,Serbia and Montenegro [former]
+AREA,ZA,South Africa
+AREA,ZM,Zambia
+AREA,ZW,Zimbabwe
+DISABILITY,_T,No breakdown
+DISABILITY,PD,Persons with disability
+DISABILITY,PWD,Persons without disability
+EDUCATION_LEV,_T,Total or no breakdown by education level
+EDUCATION_LEV,ISCED11_0,Early childhood education
+EDUCATION_LEV,ISCED11_01,Early childhood educational development
+EDUCATION_LEV,ISCED11_02,Pre-primary education
+EDUCATION_LEV,ISCED11_1,Primary education
+EDUCATION_LEV,ISCED11_10,Primary education
+EDUCATION_LEV,ISCED11_2,Lower secondary education
+EDUCATION_LEV,ISCED11_24,Lower secondary general education
+EDUCATION_LEV,ISCED11_25,Lower secondary vocational education
+EDUCATION_LEV,ISCED11_3,Upper secondary education
+EDUCATION_LEV,ISCED11_34,Upper secondary general education
+EDUCATION_LEV,ISCED11_35,Upper secondary vocational education
+EDUCATION_LEV,ISCED11_4,Post-secondary non-tertiary education
+EDUCATION_LEV,ISCED11_44,Post-secondary non-tertiary general education
+EDUCATION_LEV,ISCED11_45,Post-secondary non-tertiary vocational education
+EDUCATION_LEV,ISCED11_5,Short-cycle tertiary education
+EDUCATION_LEV,ISCED11_54,Short-cycle tertiary general education
+EDUCATION_LEV,ISCED11_55,Short-cycle tertiary vocational education
+EDUCATION_LEV,ISCED11_6,Bachelor’s or equivalent level
+EDUCATION_LEV,ISCED11_7,Master’s or equivalent level
+EDUCATION_LEV,ISCED11_8,Doctoral or equivalent level
+EDUCATION_LEV,ISCED11_9,Not elsewhere classified
+EDUCATION_LEV,ISCED11_99,Not elsewhere classified
+EDUCATION_LEV,ISCED11A_0,Less than primary education
+EDUCATION_LEV,ISCED11A_01,Never attended an education programme / No schooling
+EDUCATION_LEV,ISCED11A_02,Some early childhood education
+EDUCATION_LEV,ISCED11A_03,Some primary education
+EDUCATION_LEV,ISCED11A_0_G23,"Some primary education, grades 2 or 3"
+EDUCATION_LEV,ISCED11A_1,"Primary education, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_2,"Lower secondary education, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_3,"Upper secondary education, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_4,"Post-secondary non-tertiary education, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_5,"Short-cycle tertiary education, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_6,"Bachelor’s or equivalent level, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_7,"Master’s or equivalent level, sufficient for level completion"
+EDUCATION_LEV,ISCED11A_8,"Doctoral or equivalent level, sufficient for level completion"
+EDUCATION_LEV,AGGA_01_02,No primary schooling
+EDUCATION_LEV,AGG_02T8,Pre-primary to tertiary education
+EDUCATION_LEV,AGG_1_2,Primary and lower secondary education (basic education)
+EDUCATION_LEV,AGG_1T3,Primary and secondary education
+EDUCATION_LEV,AGG_5T8,Tertiary education
+EDUCATION_LEV,AGG_2_3,Secondary education (lower and upper secondary education)
+EDUCATION_LEV,AGG_3_4,Secondary and post-secondary non-tertiary education (intermediate)
+EDUCATION_LEV,ISCED11_25_35_45,Vocational secondary education
+EDUCATION_LEV,ISCED97_0,Pre-primary education
+EDUCATION_LEV,ISCED97_1,Primary education or first stage of basic education
+EDUCATION_LEV,ISCED97_2,Lower secondary or second stage of basic education
+EDUCATION_LEV,ISCED97_3,Upper secondary education
+EDUCATION_LEV,ISCED97_4,Post-secondary non-tertiary education
+EDUCATION_LEV,ISCED97_5,First stage of tertiary education (not leading directly to an advanced research qualification)
+EDUCATION_LEV,ISCED97_5A,First stage of tertiary education (theoretically based/research preparatory)
+EDUCATION_LEV,ISCED97_5B,First stage of tertiary education (practical/technical/occupationally specific)
+EDUCATION_LEV,ISCED97_6,Second stage of tertiary education (leading to an advanced research qualification)
+NATURE,C,Country Data
+NATURE,CA,Country Adjusted
+NATURE,E,Estimated
+NATURE,G,Global monitoring data
+NATURE,M,Modeled
+NATURE,N,Non-relevant
+NATURE,_X,Not Available
+OCCUPATION,_T,Total or no breakdown by Occupation
+OCCUPATION,ISCO08_1,Managers
+OCCUPATION,ISCO08_2,Professionals
+OCCUPATION,ISCO08_3,Technicians and associate professionals
+OCCUPATION,ISCO08_4,Clerical support workers
+OCCUPATION,ISCO08_5,Service and sales workers
+OCCUPATION,ISCO08_6,"Skilled agricultural, forestry and fishery workers"
+OCCUPATION,ISCO08_7,Craft and related trades workers
+OCCUPATION,ISCO08_8,"Plant and machine operators, and assemblers"
+OCCUPATION,ISCO08_9,Elementary occupations
+OCCUPATION,ISCO08_0,Armed forces occupations
+OCCUPATION,ISCO08_X,Not elsewhere classified
+OCCUPATION,ISCO88_1,"Legislators, senior officials and managers"
+OCCUPATION,ISCO88_2,Professionals
+OCCUPATION,ISCO88_3,Technicians and associate professionals
+OCCUPATION,ISCO88_4,Clerks
+OCCUPATION,ISCO88_5,Service workers and shop and market sales workers
+OCCUPATION,ISCO88_6,Skilled agricultural and fishery workers
+OCCUPATION,ISCO88_7,Craft and related trades workers
+OCCUPATION,ISCO88_8,Plant and machine operators and assemblers
+OCCUPATION,ISCO88_9,Elementary occupations
+OCCUPATION,ISCO88_0,Armed forces
+OCCUPATION,ISCO88_X,Not elsewhere classified
+OCCUPATION,ISCO68_0-1,"Professional, technical and related workers"
+OCCUPATION,ISCO68_2,Administrative and managerial workers
+OCCUPATION,ISCO68_3,Clerical and related workers
+OCCUPATION,ISCO68_4,Sales workers
+OCCUPATION,ISCO68_5,Service workers
+OCCUPATION,ISCO68_6,"Agriculture, animal husbandry and forestry workers, fishermen and hunters"
+OCCUPATION,ISCO68_7-9,"Production and related workers, transport equipment operators and labourers"
+OCCUPATION,ISCO68_X,Not elsewhere classified
+OCCUPATION,ISCO68_AF,Armed Forces
+QUANTILE,Q1,Quintile 1 (poorest)
+QUANTILE,Q2,Quintile 2
+QUANTILE,Q3,Quintile 3
+QUANTILE,Q4,Quintile 4
+QUANTILE,Q5,Quintile 5 (richest)
+QUANTILE,B40,Bottom 40%
+QUANTILE,R60,Richest 60%
+QUANTILE,_T,Total (national average) or no breakdown
+REPORTING_TYPE,G,Global
+REPORTING_TYPE,R,Regional
+REPORTING_TYPE,N,National
+SDG_COMP_BREAKDOWN,_T,No breakdown
+SDG_COMP_BREAKDOWN,SKILL_MATH,Skill: Minimum proficiency in mathematics
+SDG_COMP_BREAKDOWN,SKILL_READ,Skill: Minimum proficiency in reading
+SDG_COMP_BREAKDOWN,SKILL_LTRCY,Skill: Functional literacy
+SDG_COMP_BREAKDOWN,SKILL_NMRCY,Skill: Functional numeracy
+SDG_COMP_BREAKDOWN,SKILL_ICTATCH,Skill: ICT Skill: Sending e-mails with attached files
+SDG_COMP_BREAKDOWN,SKILL_ICTCPT,Skill: ICT Skill: Using copy and paste tools to duplicate or move information within a document
+SDG_COMP_BREAKDOWN,SKILL_ICTCDV,Skill: ICT Skill: connecting and installing new devices
+SDG_COMP_BREAKDOWN,SKILL_ICTSSHT,Skill: ICT Skill: Using basic arithmetic formula in a spreadsheet
+SDG_COMP_BREAKDOWN,SKILL_ICTPRGM,Skill: ICT Skill: Writing a computer program using a specialized programming language
+SDG_COMP_BREAKDOWN,SKILL_ICTPST,Skill: ICT Skill: Creating electronic presentations with presentation software
+SDG_COMP_BREAKDOWN,SKILL_ICTSFWR,"Skill: ICT Skill: Finding, downloading, installing and configuring software"
+SDG_COMP_BREAKDOWN,SKILL_ICTTRFF,Skill: ICT Skill: Transferring files between a computer and other devices
+SDG_COMP_BREAKDOWN,IO_ADB,International Organisation: Asian Development Bank
+SDG_COMP_BREAKDOWN,IO_AFDB,International Organisation: African Development Bank
+SDG_COMP_BREAKDOWN,IO_ECOSOC,International Organisation: UN Economic and Social Council
+SDG_COMP_BREAKDOWN,IO_FSB,International Organisation: Financial Stability Board
+SDG_COMP_BREAKDOWN,IO_IADB,International Organisation: Inter-American Development Bank
+SDG_COMP_BREAKDOWN,IO_IBRD,International Organisation: International Bank for Reconstruction and Development
+SDG_COMP_BREAKDOWN,IO_IFC,International Organisation: International Finance Corporation
+SDG_COMP_BREAKDOWN,IO_IMF,International Organisation: International Monetary Fund
+SDG_COMP_BREAKDOWN,IO_UNGA,International Organisation: UN General Assembly
+SDG_COMP_BREAKDOWN,IO_UNSC,International Organisation: UN Security Council
+SDG_COMP_BREAKDOWN,IO_WTO,International Organisation: World Trade Organisation
+SDG_COMP_BREAKDOWN,PRD_ARMS,Product: Arms
+SDG_COMP_BREAKDOWN,PRD_CLTH,Product: Clothing
+SDG_COMP_BREAKDOWN,PRD_IND,Product: Industrial products
+SDG_COMP_BREAKDOWN,PRD_AGR,Product: Agriculture products
+SDG_COMP_BREAKDOWN,PRD_T,Product: All products
+SDG_COMP_BREAKDOWN,PRD_OIL,Product: Oil
+SDG_COMP_BREAKDOWN,PRD_TXL,Product: Textiles
+SDG_COMP_BREAKDOWN,NCD_CNCR,Non-communicable disease: Cancer
+SDG_COMP_BREAKDOWN,NCD_CARDIO,Non-communicable disease: Cardiovascular disease
+SDG_COMP_BREAKDOWN,NCD_CRESPD,Non-communicable disease: Chronic respiratory disease
+SDG_COMP_BREAKDOWN,NCD_DIABTS,Non-communicable disease: Diabetes
+SDG_COMP_BREAKDOWN,NCD_NCOM,"Non-communicable disease: Cardiovascular disease, cancer, diabetes, or chronic respiratory disease"
+SDG_COMP_BREAKDOWN,WSM_H20,Water/sanitation management programme: Drinking water supply
+SDG_COMP_BREAKDOWN,WSM_HYG,Water/sanitation management programme: Hygiene promotion
+SDG_COMP_BREAKDOWN,WSM_SAN,Water/sanitation management programme: Sanitation
+SDG_COMP_BREAKDOWN,WSM_WRM,Water/sanitation management programme: Water resources planning and management
+SDG_COMP_BREAKDOWN,MFA_T,Material Flows: Total
+SDG_COMP_BREAKDOWN,MFA_BIOMASS,Material Flows: Biomass
+SDG_COMP_BREAKDOWN,MFA_FFUELS,Material Flows: Fossil fuels
+SDG_COMP_BREAKDOWN,MFA_MORES,Material Flows: Metal ores
+SDG_COMP_BREAKDOWN,MFA_NMM,Material Flows: Non-metallic minerals
+SDG_COMP_BREAKDOWN,MFA_CROPR,Material Flows: Crop residues
+SDG_COMP_BREAKDOWN,MFA_CROPS,Material Flows: Crops
+SDG_COMP_BREAKDOWN,MFA_GMFC,Material Flows: Grazed biomass and fodder crops
+SDG_COMP_BREAKDOWN,MFA_WCH,Material Flows: Wild catch and harvest
+SDG_COMP_BREAKDOWN,MFA_WOOD,Material Flows: Wood
+SDG_COMP_BREAKDOWN,MFA_COAL,Material Flows: Coal
+SDG_COMP_BREAKDOWN,MFA_NGAS,Material Flows: Natural gas
+SDG_COMP_BREAKDOWN,MFA_SHALE,Material Flows: Oil shale and tar sands
+SDG_COMP_BREAKDOWN,MFA_PETRO,Material Flows: Petroleum
+SDG_COMP_BREAKDOWN,MFA_FORES,Material Flows: Ferrous ores
+SDG_COMP_BREAKDOWN,MFA_NFORES,Material Flows: Non-ferrous ores
+SDG_COMP_BREAKDOWN,MFA_NMMCD,Material Flows: Non-metallic minerals - construction dominant
+SDG_COMP_BREAKDOWN,MFA_NMMIAD,Material Flows: Non-metallic minerals - industrial or agricultural dominant
+SDG_COMP_BREAKDOWN,MS_MIGRANT,Migrant Status: Migrant
+SDG_COMP_BREAKDOWN,MS_NOMIGRANT,Migrant Status: Non-migrant
+SDG_CUST_BREAKDOWN,_T,No breakdown
+SDG_SERIES,SI_POV_DAY1,Population below international poverty line (1.1.1)
+SDG_SERIES,SI_POV_EMP1,Employed population below international poverty line (1.1.1)
+SDG_SERIES,SI_POV_NAHC,Population below national poverty line (1.2.1)
+SDG_SERIES,SI_COV_BENFTS,Population covered by at least one social protection floor/system (1.3.1)
+SDG_SERIES,SI_COV_CHLD,Children covered by social protection (1.3.1)
+SDG_SERIES,SI_COV_DISAB,Population with severe disabilities collecting disability social protection benefits (1.3.1)
+SDG_SERIES,SI_COV_LMKT,Population covered by labour market programs (1.3.1)
+SDG_SERIES,SI_COV_MATNL,Mothers receiving maternity benefits and benefits for newborns (1.3.1)
+SDG_SERIES,SI_COV_PENSN,Population above retirement age receiving a pension (1.3.1)
+SDG_SERIES,SI_COV_POOR,Poor population covered by social protection floors/systems (1.3.1)
+SDG_SERIES,SI_COV_SOCAST,Population covered by social assistance programs (1.3.1)
+SDG_SERIES,SI_COV_SOCINS,Population covered by social insurance programs (1.3.1)
+SDG_SERIES,SI_COV_UEMP,Unemployed receiving unemployment benefits (1.3.1)
+SDG_SERIES,SI_COV_VULN,Vulnerable population covered by social protection floors/systems (1.3.1)
+SDG_SERIES,SI_COV_WKINJRY,Employed population covered in the event of work injury (1.3.1)
+SDG_SERIES,VC_DSR_AFFCT,Population affected by disaster (1.5.1)
+SDG_SERIES,VC_DSR_MISS,Population missing due to disaster (1.5.1)
+SDG_SERIES,VC_DSR_MORT,Deaths due to disaster (1.5.1)
+SDG_SERIES,VC_DSR_GDPLS,Direct economic loss attributed to disasters (1.5.2)
+SDG_SERIES,SG_DSR_LEGREG,Countries with legislative and/or regulatory provisions been made for managing disaster risk (1.5.3)
+SDG_SERIES,SN_ITK_DEFC,Prevalence of undernourishment (2.1.1)
+SDG_SERIES,AG_PRD_FIESMS,Prevalence of moderate or severe food insecurity in the population (2.1.2)
+SDG_SERIES,AG_PRD_FIESMSN,Population in moderate or severe food insecurity (2.1.2)
+SDG_SERIES,AG_PRD_FIESMSTN,Population living in households where at least one adult experienced moderate or severe food insecurity (2.1.2)
+SDG_SERIES,AG_PRD_FIESS,Prevalence of severe food insecurity in the population (2.1.2)
+SDG_SERIES,AG_PRD_FIESSN,Population in severe food insecurity (2.1.2)
+SDG_SERIES,AG_PRD_FIESSTN,Population living in households where at least one adult experienced severe food insecurity (2.1.2)
+SDG_SERIES,SH_STA_STNT,Proportion of children moderately or severely stunted (2.2.1)
+SDG_SERIES,SH_STA_STNTN,Children moderately or severely stunted (2.2.1)
+SDG_SERIES,SH_STA_WAST,Proportion of children moderately or severely wasted (2.2.2)
+SDG_SERIES,SH_STA_WASTN,Children moderately or severely wasted (2.2.2)
+SDG_SERIES,SN_STA_OVWGT,Proportion of children moderately or severely overweight (2.2.2)
+SDG_SERIES,SN_STA_OVWGTN,Children moderately or severely overweight (2.2.2)
+SDG_SERIES,ER_GRF_ANIMKPT,Locally adapted and exotic animal breeds kept in the country (2.5.1)
+SDG_SERIES,ER_GRF_ANIMRCNT,Proportion of animal breeds for which sufficient genetic resources are stored for reconstitution (2.5.1)
+SDG_SERIES,ER_GRF_ANIMRCNTN,Animal breeds for which sufficient genetic resources are stored for reconstitution (2.5.1)
+SDG_SERIES,ER_GRF_ANIMSTOR,Proportion of animal breeds for which sufficient genetic resources are stored (2.5.1)
+SDG_SERIES,ER_GRF_ANIMSTORN,Animal breeds for which sufficient genetic resources are stored (2.5.1)
+SDG_SERIES,ER_GRF_GENEBNK,Operational in vitro gene bank for animal genetic resources (2.5.1)
+SDG_SERIES,ER_GRF_PLNTSTOR,Plant breeds for which sufficient genetic resources are stored (2.5.1)
+SDG_SERIES,ER_NRK_LBRED,Proportion of local breeds classified as being at risk (2.5.2)
+SDG_SERIES,ER_NRK_LBREDN,Local breeds classified as being at risk (2.5.2)
+SDG_SERIES,ER_RSK_LBRED,Proportion of local breeds classified as being not-at-risk (2.5.2)
+SDG_SERIES,ER_RSK_LBREDN,Local breeds classified as being not-at-risk (2.5.2)
+SDG_SERIES,ER_UNK_LBRED,Proportion of local breeds classified as being at unknown level of risk of extinction (2.5.2)
+SDG_SERIES,ER_UNK_LBREDN,Local breeds classified as being at unknown level of risk of extinction (2.5.2)
+SDG_SERIES,AG_PRD_ORTIND,Agriculture orientation index for government expenditures (2.a.1)
+SDG_SERIES,DC_TOF_AGRL,"Total official flows disbursements for agriculture, by recipient (2.a.2)"
+SDG_SERIES,AG_PRD_XSUBDY,Agricultural export subsidies (2.b.1)
+SDG_SERIES,AG_FPA_MAIZE,"Indicator of Food Price Anomalies (IFPA), maize (2.c.1)"
+SDG_SERIES,AG_FPA_MILLET,"Indicator of Food Price Anomalies (IFPA), millet (2.c.1)"
+SDG_SERIES,AG_FPA_RICE,"Indicator of Food Price Anomalies (IFPA), rice (2.c.1)"
+SDG_SERIES,AG_FPA_SGHUM,"Indicator of Food Price Anomalies (IFPA), sorghum (2.c.1)"
+SDG_SERIES,AG_FPA_WHEAT,"Indicator of Food Price Anomalies (IFPA), wheat (2.c.1)"
+SDG_SERIES,SH_STA_MORT,Maternal mortality ratio (3.1.1)
+SDG_SERIES,SH_STA_BRTC,Births attended by skilled health personnel (3.1.2)
+SDG_SERIES,SH_DYN_IMRT,Infant mortality rate (3.2.1)
+SDG_SERIES,SH_DYN_IMRTN,Infant deaths (3.2.1)
+SDG_SERIES,SH_DYN_MORT,Under-five mortality rate (3.2.1)
+SDG_SERIES,SH_DYN_MORTN,Under-five deaths (3.2.1)
+SDG_SERIES,SH_DYN_NMRT,Neonatal mortality rate (3.2.2)
+SDG_SERIES,SH_DYN_NMRTN,Neonatal deaths (3.2.2)
+SDG_SERIES,SH_HIV_INCD,HIV incidence (3.3.1)
+SDG_SERIES,SH_TBS_INCD,Tuberculosis incidence (3.3.2)
+SDG_SERIES,SH_STA_MALR,Malaria incidence rate (3.3.3)
+SDG_SERIES,SH_TRP_INTVN,Population requiring interventions against neglected tropical diseases (3.3.5)
+SDG_SERIES,SH_DTH_NCD,Deaths attributed non-communicable diseases (3.4.1)
+SDG_SERIES,SH_STA_SCIDE,Suicide mortality rate (3.4.2)
+SDG_SERIES,SH_STA_SCIDEN,Deaths attributed to suicide (3.4.2)
+SDG_SERIES,SH_ALC_CONSPT,Alcohol consumption per capita (3.5.2)
+SDG_SERIES,SH_STA_TRAF,Death rate due to road traffic injuries (3.6.1)
+SDG_SERIES,SH_FPL_MTMM,"Met need for family planning, modern methods (3.7.1)"
+SDG_SERIES,SP_DYN_ADKL,Adolescent births (3.7.2)
+SDG_SERIES,SH_AAP_ASMORT,Age-standardized mortality rate attributed to ambient air pollution (3.9.1)
+SDG_SERIES,SH_AAP_MORT,Crude death rate attributed to ambient air pollution (3.9.1)
+SDG_SERIES,SH_HAP_ASMORT,Age-standardized mortality rate attributed to household air pollution (3.9.1)
+SDG_SERIES,SH_HAP_MORT,Crude death rate attributed to household air pollution (3.9.1)
+SDG_SERIES,SH_STA_AIRP,Crude death rate attributed to household and ambient air pollution (3.9.1)
+SDG_SERIES,SH_STA_ASAIRP,Age-standardized mortality rate attributed to household and ambient air pollution (3.9.1)
+SDG_SERIES,SH_STA_WASH,"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (3.9.2)"
+SDG_SERIES,SH_STA_POISN,Mortality rate attributed to unintentional poisonings (3.9.3)
+SDG_SERIES,SH_PRV_SMOK,Age-standardized prevalence of current tobacco use (3.a.1)
+SDG_SERIES,DC_TOF_HLTHL,"Total gross official disbursements for medical research and basic heath sectors, by recipient (3.b.2)"
+SDG_SERIES,DC_TOF_HLTHNT,"Total net official disbursements for medical research and basic heath sectors, by recipient (3.b.2)"
+SDG_SERIES,SH_MED_DEN,Health workder density (3.c.1)
+SDG_SERIES,SH_IHR_CAPPRD,International Health Regulations (IHR) core capacity index (3.d.1)
+SDG_SERIES,SE_TOT_PRFL,Minimum proficiency level (4.1.1)
+SDG_SERIES,SE_DEV_ONTRK,Children developmentally on track (4.2.1)
+SDG_SERIES,SE_PRE_PARTN,Participation rate in organized learning (4.2.2)
+SDG_SERIES,SE_ADT_EDUCTRN,Participation rate in formal and non-formal education and training (4.3.1)
+SDG_SERIES,SE_TOT_ICTS,Population with ICT skill (4.4.1)
+SDG_SERIES,SE_TOT_GPI,Gender parity index for achievement (4.5.1)
+SDG_SERIES,SE_TOT_SESPI,Low to high socio-economic parity status index for achievement (4.5.1)
+SDG_SERIES,SE_TOT_RUPI,Rural to urban parity index for achievement (4.5.1)
+SDG_SERIES,SE_GPI_TCAQ,Gender parity index of trained teachers (4.5.1)
+SDG_SERIES,SE_GPI_PTNPRE,Gender parity index for participation rate in organized learning (one year before the official primary entry age) (4.5.1)
+SDG_SERIES,SE_ACS_ELECT,Schools with access to�electricity (4.a.1)
+SDG_SERIES,SE_ACS_CMPTR,Schools with access to�computers for pedagogical purposes (4.a.1)
+SDG_SERIES,SE_ACS_H2O,Schools with access to basic drinking water (4.a.1)
+SDG_SERIES,SE_ACC_HNDWSH,Schools with basic handwashing facilities (4.a.1)
+SDG_SERIES,SE_ACS_INTNT,Schools with access to the internet for pedagogical purposes (4.a.1)
+SDG_SERIES,SE_ACS_SANIT,Schools with access to access to single-sex basic sanitation (4.a.1)
+SDG_SERIES,DC_TOF_SCHIPSL,"Total official flows for scholarships, by recipient (4.b.1)"
+SDG_SERIES,SE_GC_TCAQ,Trained teachers (4.c.1)
+SDG_SERIES,VC_VAW_MARR,"Ever-partnered women and girls victim of physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months (5.2.1)"
+SDG_SERIES,VC_VAW_PHYV,Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months (5.2.1)
+SDG_SERIES,VC_VAW_SEXV,"Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months, (5.2.1)"
+SDG_SERIES,VC_VAW_PSYV,Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months (5.2.1)
+SDG_SERIES,SP_DYN_MRBF,Married or in a union (5.3.1)
+SDG_SERIES,SP_DYN_MRBF15,Proportion of women who were married or in a union before age 15 (5.3.1)
+SDG_SERIES,SP_DYN_MRBF18,Proportion of women who were married or in a union before age 18 (5.3.1)
+SDG_SERIES,SH_STA_FGMS,Genital mutilation prevalence (5.3.2)
+SDG_SERIES,SL_DOM_TSPD,Time spent on unpaid domestic chores and care work (5.4.1)
+SDG_SERIES,SL_DOM_TSPDCW,Time spent on unpaid care work (5.4.1)
+SDG_SERIES,SL_DOM_TSPDDC,Time spent on unpaid domestic chores (5.4.1)
+SDG_SERIES,SG_GEN_PARL,Proportion of seats held by women in national parliaments (5.5.1)
+SDG_SERIES,SG_GEN_PARLN,Number of seats held by women in national parliaments (5.5.1)
+SDG_SERIES,SG_GEN_PARLNT,Number of seats in national parliaments (5.5.1)
+SDG_SERIES,SG_GEN_LOCG,Proportion of seats held by women in local governments (5.5.1)
+SDG_SERIES,IC_GEN_MGTL,Women in managerial positions (5.5.2)
+SDG_SERIES,IC_GEN_MGTN,Women in senior and middle management positions (5.5.2)
+SDG_SERIES,SH_FPL_INFM,"Women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (5.6.1)"
+SDG_SERIES,IT_MOB_OWN,Individuals who own a mobile telephone (5.b.1)
+SDG_SERIES,SH_H2O_SAFE,Population using safely managed drinking water services (6.1.1)
+SDG_SERIES,SH_SAN_DEFECT,Population practicing open defecation (6.2.1)
+SDG_SERIES,SH_SAN_HNDWSH,Population with basic handwashing facilities on premises (6.2.1)
+SDG_SERIES,SH_SAN_SAFE,Population using safely managed sanitation services (6.2.1)
+SDG_SERIES,ER_H2O_STRESS,Level of water stress (6.4.2)
+SDG_SERIES,ER_H2O_INTG,Proportion of countries that have fully implemented national integrated water resources management plans or equivalent (6.5.1)
+SDG_SERIES,ER_H2O_INTGAD,Proportion of countries that are at advanced stage of implementation of national integrated water resources management plans or equivalent (6.5.1)
+SDG_SERIES,ER_H2O_INTGDV,Proportion of countries that have developed but are not yet implementing national integrated water resources management plans or equivalent (6.5.1)
+SDG_SERIES,ER_H2O_INTGNA,Proportion of countries where national integrated water resources management plans or equivalent are not relevant (6.5.1)
+SDG_SERIES,ER_H2O_INTGSD,Proportion of countries that have started implementing national integrated water resources management plans or equivalent (6.5.1)
+SDG_SERIES,ER_H2O_INTGUD,Proportion of countries where national integrated water resources management plans or equivalent are under development (6.5.1)
+SDG_SERIES,DC_TOF_WASHL,"Total official flows for water supply and sanitation, by recipient (6.a.1)"
+SDG_SERIES,ER_WSM_PARTIC,Proportion of countries with high level of users/communities participating in planning programs in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PARTICH,High level of users/communities participating in planning programs in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PARTICL,Low level of users/communities participating in planning programs in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PARTICM,Moderate level of users/communities participating in planning programs in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PARTICNA,Not applicable level of users/communities participating in planning programs in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PROCED,Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PROCEDN,No clearly defined procedures in law or policy for participation by service users/communities in planning program in water/sanitation management (6.b.1)
+SDG_SERIES,ER_WSM_PROCEDNA,"Not applicable, clearly defined procedures in law or policy for participation by service users/communities in planning program in water/sanitation management (6.b.1)"
+SDG_SERIES,ER_WSM_PROCEDY,Clearly defined procedures in law or policy for participation by service users/communities in planning program in water/sanitation management (6.b.1)
+SDG_SERIES,EG_ACS_ELEC,Population with access to electricity (7.1.1)
+SDG_SERIES,EG_EGY_CLEAN,Population with primary reliance on clean fuels and technology (7.1.2)
+SDG_SERIES,EG_FEC_RNEW,Renewable energy share in the total final energy consumption (7.2.1)
+SDG_SERIES,EG_EGY_PRIM,Energy intensity level of primary energy (7.3.1)
+SDG_SERIES,NY_GDP_PCAP,GDP per capita growth (8.1.1)
+SDG_SERIES,SL_EMP_PCAP,Growth rate of real GDP per employed person (8.2.1)
+SDG_SERIES,SL_ISV_IFRM,Informal employment in non-agriculture (8.3.1)
+SDG_SERIES,EN_MAT_FTPRPC,Material footprint per capita (8.4.1)
+SDG_SERIES,EN_MAT_FTPRPG,Material footprint per unit of GDP (8.4.1)
+SDG_SERIES,EN_MAT_FTPRTN,Material footprint (8.4.1)
+SDG_SERIES,EN_MAT_DOMCMPC,Domestic material consumption per capita (8.4.2)
+SDG_SERIES,EN_MAT_DOMCMPG,Domestic material consumption per unit of GDP (8.4.2)
+SDG_SERIES,EN_MAT_DOMCMPT,Domestic material consumption (8.4.2)
+SDG_SERIES,SL_EMP_EARN,Average hourly earnings (8.5.1)
+SDG_SERIES,SL_TLF_UEM,Unemployment rate (8.5.2)
+SDG_SERIES,SL_TLF_UEMDIS,Unemployment rate disaggregated by persons with disabilites (8.5.2)
+SDG_SERIES,SL_TLF_NEET,"Youth not in education, employment or training (8.6.1)"
+SDG_SERIES,SL_TLF_CHD,Proportion of children in employment (8.7.1)
+SDG_SERIES,SL_TLF_CHDHAZ,Proportion of children engaged in hazardous work (8.7.1)
+SDG_SERIES,SL_TLF_CHDHAZN,Children engaged in hazardous work (8.7.1)
+SDG_SERIES,SL_TLF_CHDLBR,Proportion of children engaged in labour (8.7.1)
+SDG_SERIES,SL_TLF_CHDLBRN,Children engaged in labour (8.7.1)
+SDG_SERIES,SL_TLF_CHDN,Children in employment (8.7.1)
+SDG_SERIES,SL_EMP_FTLINJUR,Fatal occupational injuries among employees (8.8.1)
+SDG_SERIES,SL_EMP_INJUR,Non-fatal occupational injuries among employees (8.8.1)
+SDG_SERIES,DC_TOF_TRDCMDL,"Total official flows commitments for Aid for Trade, by donor (8.a.1)"
+SDG_SERIES,DC_TOF_TRDCML,"Total official flows commitments for Aid for Trade, by recipient (8.a.1)"
+SDG_SERIES,DC_TOF_TRDDBMDL,"Total official flows disbursed for Aid for Trade, by donor (8.a.1)"
+SDG_SERIES,DC_TOF_TRDDBML,"Total official flows disbursed for Aid for Trade, by recipient (8.a.1)"
+SDG_SERIES,FB_ATM_TOTL,Automated teller machines (ATMs) (8.10.1)
+SDG_SERIES,FB_CBK_BRCH,Commercial bank branches (8.10.1)
+SDG_SERIES,FB_BNK_ACCSS,Account at a financial institution or mobile-money-service provider (8.10.2)
+SDG_SERIES,IS_RDP_FRGHTKM,"Freight volume (tonne kilometres), by road transport (9.1.2)"
+SDG_SERIES,IS_RDP_PSSGRKM,"Passenger volume (passenger kilometres), by road transport (9.1.2)"
+SDG_SERIES,IS_RRS_FRGHTKM,"Freight volume (tonne kilometres), by rail transport (9.1.2)"
+SDG_SERIES,IS_RRS_PSSGRKM,"Passenger volume (passenger kilometres), by rail transport (9.1.2)"
+SDG_SERIES,IS_TRP_FRGHT,"Freight volume, by air transport (9.1.2)"
+SDG_SERIES,IS_TRP_FRGHTKM,"Freight volume (tonne kilometres), by air transport (9.1.2)"
+SDG_SERIES,IS_TRP_MAILTKM,"Mail volume (tonne kilometres), by air transport (9.1.2)"
+SDG_SERIES,IS_TRP_PSSGR,"Passenger volume, by air transport (9.1.2)"
+SDG_SERIES,IS_TRP_PSSGRKM,"Passenger volume (passenger kilometres), by air transport (9.1.2)"
+SDG_SERIES,NV_IND_MANF,"Manufacturing, value added (% of GDP) (9.2.1)"
+SDG_SERIES,NV_IND_MANFPC,"Manufacturing, value added (per capita) (9.2.1)"
+SDG_SERIES,SL_TLF_MANF,Employment in manufacturing (9.2.2)
+SDG_SERIES,EN_ATM_CO2,Carbon dioxide emissions (9.4.1)
+SDG_SERIES,EN_ATM_CO2GDP,Carbon dioxide emissions per unit of GDP (9.4.1)
+SDG_SERIES,EN_ATM_CO2MVA,Carbon dioxide emissions per unit of Manufacturing Value Added (9.4.1)
+SDG_SERIES,GB_XPD_RSDV,Research and development expenditure (% of GDP) (9.5.1)
+SDG_SERIES,GB_POP_SCIERD,Researchers in R&D (per million people) (9.5.2)
+SDG_SERIES,DC_TOF_INFRAL,"Total official flows for infrastructure, by recipient (9.a.1)"
+SDG_SERIES,NV_IND_TECH,Medium and high-tech industry value added in total value added (9.b.1)
+SDG_SERIES,IT_MOB_2GNTWK,Population covered by at least a 2G mobile network (9.c.1)
+SDG_SERIES,IT_MOB_3GNTWK,Population covered by at least a 3G mobile network (9.c.1)
+SDG_SERIES,IT_MOB_4GNTWK,Population covered by at least a 4G mobile network (9.c.1)
+SDG_SERIES,SI_HEI_TOTL,Growth rates of household expenditure or income per capita (10.1.1)
+SDG_SERIES,SL_EMP_GTOTL,"Labour share of GDP, comprising wages and social protection transfers (10.4.1)"
+SDG_SERIES,SG_INT_MBR,Proportion of membership in international organizations (10.6.1)
+SDG_SERIES,TM_TRF_ZERO,Tariff lines applied to imports with zero-tariff (10.a.1)
+SDG_SERIES,DC_TRF_TOTDL,"Total assistance for development, by donor (10.b.1)"
+SDG_SERIES,DC_TRF_TOTL,"Total assistance for development, by recipient (10.b.1)"
+SDG_SERIES,SI_RMT_COST,Remittance costs as a proportion of the amount remitted (10.c.1)
+SDG_SERIES,EN_LND_SLUM,Proportion of urban population living in slums (11.1.1)
+SDG_SERIES,EN_LND_SLUMN,Urban population living in slums (11.1.1)
+SDG_SERIES,VC_DSR_AALG,"Direct disaster economic loss, average annual loss in relation to global GDP (11.5.2)"
+SDG_SERIES,VC_DSR_AALT,"Direct disaster economic loss, average annual loss (11.5.2)"
+SDG_SERIES,VC_DSR_DMGEDUC,"Damage to critical infrastructure, education facilities (11.5.2)"
+SDG_SERIES,VC_DSR_DMGHLTH,"Damage to critical infrastructure, health facilities (11.5.2)"
+SDG_SERIES,VC_DSR_EXVAL,"Direct disaster economic loss, exposed value (11.5.2)"
+SDG_SERIES,EN_REF_COLDIS,Population served by municipal waste collection (11.6.1)
+SDG_SERIES,EN_ATM_PM25,Annual mean levels of fine particulate matter in cities (11.6.2)
+SDG_SERIES,SG_HAZ_CMRBASEL,Compliance with the Basel Convention on hazardous waste and other chemicals (12.4.1)
+SDG_SERIES,SG_HAZ_CMRMNTRL,Compliance with the Montreal Protocol on hazardous waste and other chemicals (12.4.1)
+SDG_SERIES,SG_HAZ_CMRROTDAM,Compliance with the Rotterdam Convention on hazardous waste and other chemicals (12.4.1)
+SDG_SERIES,SG_HAZ_CMRSTHOLM,Compliance with the Stockholm Convention on hazardous waste and other chemicals (12.4.1)
+SDG_SERIES,ER_H2O_FISHFEXP,Fish stocks fully exploited (14.4.1)
+SDG_SERIES,ER_H2O_FISHNFEXP,Fish stocks not fully exploited (14.4.1)
+SDG_SERIES,ER_H2O_FISHOVEXP,Fish stocks overexploited (14.4.1)
+SDG_SERIES,ER_H2O_FWTL,Fish stocks within biologically sustainable levels (not overexploited) (14.4.1)
+SDG_SERIES,ER_MRN_MARIN,Protected area coverage for marine (Economic Exclusion Zones) (14.5.1)
+SDG_SERIES,ER_MRN_MARINT,Protected marine area (Economic Exclusion Zones) (14.5.1)
+SDG_SERIES,ER_MRN_TOTL,Marine area (Economic Exclusion Zones) (14.5.1)
+SDG_SERIES,AG_LND_FRST,Land area covered by forest (15.1.1)
+SDG_SERIES,AG_LND_FRSTN,Forest area (15.1.1)
+SDG_SERIES,AG_LND_TOTL,Land area (15.1.1)
+SDG_SERIES,ER_PTD_FRHWTR,Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (15.1.2)
+SDG_SERIES,ER_PTD_TERR,Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (15.1.2)
+SDG_SERIES,AG_LND_FRSTBIOM,Above-ground biomass in forest (15.2.1)
+SDG_SERIES,AG_LND_FRSTBIOPHA,Above-ground biomass in forest per hectare (15.2.1)
+SDG_SERIES,AG_LND_FRSTCERT,Forest area certified under an independently verified certification scheme (15.2.1)
+SDG_SERIES,AG_LND_FRSTCHG,Forest area net change rate (15.2.1)
+SDG_SERIES,AG_LND_FRSTMGT,Forest area with a long-term management plan (15.2.1)
+SDG_SERIES,AG_LND_FRSTPRCT,Proportion of forest area within legally established protected areas (15.2.1)
+SDG_SERIES,AG_LND_FRSTPRCTN,Forest area within legally established protected areas (15.2.1)
+SDG_SERIES,ER_PTD_MTN,Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (15.4.1)
+SDG_SERIES,ER_MTN_GRNCOV,Mountain green cover area (15.4.2)
+SDG_SERIES,ER_MTN_GRNCVI,Mountain Green Cover Index (15.4.2)
+SDG_SERIES,ER_MTN_TOTL,Mountain area (15.4.2)
+SDG_SERIES,ER_RSK_LST,Red List Index (15.5.1)
+SDG_SERIES,ER_CBD_ABSCLRHS,"Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (15.6.1)"
+SDG_SERIES,ER_CBD_NAGOYA,Countries that are parties to the Nagoya Protocol (15.6.1)
+SDG_SERIES,ER_CBD_ORSPGRFA,"Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (15.6.1)"
+SDG_SERIES,ER_CBD_PTYPGRFA,Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (15.6.1)
+SDG_SERIES,ER_CBD_SMTA,Total reported number of Standard Material Transfer Agreements (SMTAs) transfering plant genetic resources for food and agriculture to the country (15.6.1)
+SDG_SERIES,DC_ODA_BDVDL,"Total official development assistance for biodiversity, by donor (15.a.1)"
+SDG_SERIES,DC_ODA_BDVL,"Total official development assistance for biodiversity, by recipient (15.a.1)"
+SDG_SERIES,VC_IHR_PSRC,"Intentional homicides per 100,000 population (16.1.1)"
+SDG_SERIES,VC_IHR_PSRCN,Intentional homicides (16.1.1)
+SDG_SERIES,VC_SNS_WALN,Population that feel safe walking alone around the area they live (16.1.4)
+SDG_SERIES,VC_VAW_PHYPYV,Victims of physical punishment and/or psychological aggression by caregivers in last month (16.2.1)
+SDG_SERIES,VC_VAW_HMTRAF,Victims of human trafficking (16.2.2)
+SDG_SERIES,VC_VAW_SXVLN,Population who experienced sexual violence by age 18 (16.2.3)
+SDG_SERIES,VC_PRS_UNSNT,Unsentenced detainees as a proportion of overall prison population (16.3.2)
+SDG_SERIES,IU_COR_BRIB,"Persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12�months (16.5.1)"
+SDG_SERIES,IC_FRM_BRIB,Bribery incidence (16.5.2)
+SDG_SERIES,IU_DMK_ICRS,Population who believe decision-making is inclusive and responsive (16.7.2)
+SDG_SERIES,SG_REG_BRTH,Proportion of births registered with a civil authority (16.9.1)
+SDG_SERIES,SG_NHR_IMPL,Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (16.a.1)
+SDG_SERIES,SG_NHR_IMPLN,Countries with National Human Rights Institutions in compliance with the Paris Principles (16.a.1)
+SDG_SERIES,SG_NHR_INTEXST,Proportion of countries that applied for accreditation as independent National Human Rights Institutions in compliance with the Paris Principles (16.a.1)
+SDG_SERIES,SG_NHR_INTEXSTN,Countries with National Human Rights Institutions not fully compliant with the Paris Principles (16.a.1)
+SDG_SERIES,SG_NHR_NOAPPLN,Countries with National Human Rights Institutions and no application for accreditation with the Paris Principles (16.a.1)
+SDG_SERIES,SG_NHR_NOSTUSN,Countries with National Human Rights Institutions and no status with the Paris Principles (16.a.1)
+SDG_SERIES,VC_VOV_DCMN,Population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law (16.b.1)
+SDG_SERIES,VC_VAW_MTUHRA,Cases of killings of journalists and associated media personnel (16.10.1)
+SDG_SERIES,SG_INF_ACCSS,"Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information (16.10.2)"
+SDG_SERIES,DC_ODA_LDCG,"Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_LDCS,"Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_LLDC,"Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_LLDCG,"Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_SIDS,"Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_SIDSG,"Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_TOTG,"Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor (17.2.1)"
+SDG_SERIES,DC_ODA_TOTL,"Net official development assistance (ODA) from OECD-DAC countries, by donor (17.2.1)"
+SDG_SERIES,BX_TRF_PWKR,Volume of remittances (% of GDP) (17.3.2)
+SDG_SERIES,DT_TDS_DECT,Debt service as a proportion of exports of goods and services (17.4.1)
+SDG_SERIES,IT_NET_BBND,Fixed broadband subscriptions per 100 inhabitants (17.6.2)
+SDG_SERIES,IT_NET_BBNDN,Fixed broadband subscriptions (17.6.2)
+SDG_SERIES,IT_NET_BD10MB,"Fixed broadband subscriptions per 100 inhabitants, 10 Mbit per second and over (17.6.2)"
+SDG_SERIES,IT_NET_BD10MBN,"Fixed broadband subscriptions, 10 Mbit per second and over (17.6.2)"
+SDG_SERIES,IT_NET_BD256KL2M,"Fixed broadband subscriptions per 100 inhabitants, with 256 kbit per second to less than 2 Mbit per second (17.6.2)"
+SDG_SERIES,IT_NET_BD256KL2MN,"Fixed broadband subscriptions, with 256 kbit to less than 2 Mbit per second (17.6.2)"
+SDG_SERIES,IT_NET_BD2L10MB,"Fixed broadband subscriptions per 100 inhabitants, with 2 Mbit to less than 10 Mbit per second (17.6.2)"
+SDG_SERIES,IT_NET_BD2L10MBN,"Fixed broadband subscriptions, with 2 Mbit to less than 10 Mbit per second (17.6.2)"
+SDG_SERIES,IT_USE_ii99,Internet users per 100 inhabitants (17.8.1)
+SDG_SERIES,DC_FTA_TOTAL,Financial and technical assistance disbursed (17.9.1)
+SDG_SERIES,TM_TAX_WMFN,Tariff rate under the most-favoured-nation status (weighted mean) (17.10.1)
+SDG_SERIES,TM_TAX_WMPS,Tariff under the preferential status (weighted mean) (17.10.1)
+SDG_SERIES,TX_EXP_GBMRCH,Share of global merchandise exports (17.11.1)
+SDG_SERIES,TX_EXP_GBSVR,Share of global services exports (17.11.1)
+SDG_SERIES,TX_IMP_GBMRCH,Share of global merchandise imports (17.11.1)
+SDG_SERIES,TX_IMP_GBSVR,Share of global services imports (17.11.1)
+SDG_SERIES,TM_TAX_WM,Average tariff applied by developed countries (17.12.1)
+SDG_SERIES,SG_PLN_PRVNDI,New development interventions drawn from country-led result frameworks by providers of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_PRVRICTRY,Results indicators drawn from country-led results frameworks by providers of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_PRVRIMON,Results indicators which will be monitored using government sources and monitoring systems by providers of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_RECNDI,New development interventions drawn from country-led result frameworks by recipients of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_RECRICTRY,Results indicators drawn from country-led results frameworks by recipients of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_RECRIMON,Results indicators which will be monitored using government sources and monitoring systems by recipients of development cooperation (17.15.1)
+SDG_SERIES,SG_PLN_MSTKSDG,Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (17.16.1)
+SDG_SERIES,SG_STT_FPOS,Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (17.18.2)
+SDG_SERIES,SG_STT_NSDSFDDNR,Countries with national statistical plans with funding from donors (17.18.3)
+SDG_SERIES,SG_STT_NSDSFDGVT,Countries with national statistical plans with funding from Government (17.18.3)
+SDG_SERIES,SG_STT_NSDSFDOTHR,Countries with national statistical plans with funding from others (17.18.3)
+SDG_SERIES,SG_STT_NSDSFND,Countries with national statistical plans that are fully funded (17.18.3)
+SDG_SERIES,SG_STT_NSDSIMPL,Countries with national statistical plans that are under implementation (17.18.3)
+SDG_SERIES,SG_STT_CAPTY,Resources made available to strengthen statistical capacity in developing countries (17.19.1)
+SDG_SERIES,SG_REG_BRTH90,Proportion of countries with birth registration data that are at least 90 percent complete (17.19.2)
+SDG_SERIES,SG_REG_BRTH90N,Countries with birth registration data that are at least 90 percent complete (17.19.2)
+SDG_SERIES,SG_REG_CENSUS,Proportion of countries that have conducted at least one population and housing census in the last 10 years (17.19.2)
+SDG_SERIES,SG_REG_CENSUSN,Countries that have conducted at least one population and housing census in the last 10 years (17.19.2)
+SDG_SERIES,SG_REG_DETH75,Proportion of countries with death registration data that are at least 75 percent complete (17.19.2)
+SDG_SERIES,SG_REG_DETH75N,Countries with death registration data that are at least 75 percent complete (17.19.2)
+SEX,F,Female
+SEX,M,Male
+SEX,_N,Non response
+SEX,_O,Other
+SEX,_U,Unknown
+SEX,_T,Both sexes or no breakdown by sex
+UNIT_MEASURE,CON_USD,Constant USD
+UNIT_MEASURE,HA,Hectares
+UNIT_MEASURE,INDEX,Index
+UNIT_MEASURE,KG_CO2_PER_GDP_CON_PPP_USD,kg CO2 equivalent per USD1 constant PPP GDP
+UNIT_MEASURE,KG_OE_PER_GDP_CON_PPP_USD,"kg oil equivalent per USD1,000 constant PPP GDP"
+UNIT_MEASURE,KG,Kilograms
+UNIT_MEASURE,KG_PER_CON_USD,Kilograms per constant USD
+UNIT_MEASURE,KM,Kilometers
+UNIT_MEASURE,KM2,Square kilometers
+UNIT_MEASURE,LITRES_PURE_ALCOHOL,Litres pure alcohol
+UNIT_MEASURE,CUR_LCU,Local currency
+UNIT_MEASURE,LCU_PPP_USD,Local currency per USD (PPP)
+UNIT_MEASURE,MJ_PER_GDP_CON_PPP_USD,Megajoules per USD constant PPP GDP
+UNIT_MEASURE,T,Metric Tons
+UNIT_MEASURE,GPERM3,Micrograms per cubic meter
+UNIT_MEASURE,NA,Not applicable
+UNIT_MEASURE,NUMBER,Number
+UNIT_MEASURE,USD_GDP_PPP,Per 1 USD GDP (PPP)
+UNIT_MEASURE,PER_1000_LIVE_BIRTHS,"Per 1,000 live births"
+UNIT_MEASURE,PER_1000_POP,"Per 1,000 population"
+UNIT_MEASURE,PER_1000_USD,"Per 1,000 USD"
+UNIT_MEASURE,PER_1000_UNINFECTED_POP,"Per 1,000 uninfected population"
+UNIT_MEASURE,PER_100_LIVE_BIRTHS,Per 100 live births
+UNIT_MEASURE,PER_100_POP,Per 100 population
+UNIT_MEASURE,PER_100000_EMP,"Per 100,000 employees"
+UNIT_MEASURE,PER_100000_FTE,"Per 100,000 full-time equivalents"
+UNIT_MEASURE,PER_100000_LIVE_BIRTHS,"Per 100,000 live births"
+UNIT_MEASURE,PER_100000_PRSN_INSR,"Per 100,000 persons insured"
+UNIT_MEASURE,PER_100000_POP,"Per 100,000 population"
+UNIT_MEASURE,PER_100000_WKRS_EMP,"Per 100,000 workers employed"
+UNIT_MEASURE,PER_100000_WKRS_EXPD,"Per 100,000 workers exposed to risk"
+UNIT_MEASURE,PER_1000000_POP,Per million population
+UNIT_MEASURE,PERCENT,Percent
+UNIT_MEASURE,PROB,Probability
+UNIT_MEASURE,RATIO,Ratio
+UNIT_MEASURE,T_KM,Tonne kilometres
+UNIT_MEASURE,T_PER_HA,Tonnes per hectare
+UNIT_MEASURE,USD,USD
+URBANISATION,_T,Total
+URBANISATION,U,Urban
+URBANISATION,R,Rural
