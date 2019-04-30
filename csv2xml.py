@@ -9,11 +9,9 @@ SERIES= 'SI_POV_NAHC'
 REPORTING_TYPE= 'N'
 
 # get indicator file as dataframe and copy
-original_csv=pd.read_csv(indicator_file)
 indicator=pd.read_csv(indicator_file)
 
 # when the mapping was made any spaces in column names were changed to "." so this is replicated here:
-new_columns=[]
 for col in indicator.columns:
     new=col.replace(" ", ".")
     indicator=indicator.rename(columns = {col:new})
